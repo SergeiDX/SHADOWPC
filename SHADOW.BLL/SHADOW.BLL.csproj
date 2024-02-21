@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SHADOW.DAL\SHADOW.DAL.csproj" />
+    <ProjectReference Include="..\SHADOW.DTO\SHADOW.DTO.csproj" />
+    <ProjectReference Include="..\SHADOW.Model\SHADOW.Model.csproj" />
+    <ProjectReference Include="..\SHADOW.Utility\SHADOW.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
